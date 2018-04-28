@@ -1,0 +1,54 @@
+*,body{margin:0;padding:0;}
+img{border:0;display: block;}
+
+body,html{
+	width:100%;
+	height: 100%;
+}
+
+#all{
+	width:100%;
+	height:100%;
+	position: absolute;
+}
+
+#mao{
+	position:absolute;
+	left:200px;
+	top:300px;
+}
+
+#kittyDiv{
+	width:250px;
+	height:280px;
+	overflow: hidden;
+	position:absolute;
+	right:200px;
+	top:300px;
+}
+
+#kitty{
+	position:absolute;
+	z-index: 5;
+}
+
+#change{
+	margin-left:-100px;
+	position:absolute;
+	z-index:-5;
+}
+
+#man{
+	position:absolute;
+	left:79px;
+	top:91px;
+}
+
+#ad >img{
+	float:left;
+}
+
+#adtxt{
+	margin-top:50px;
+	float:left;
+}
